@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+.signup {
+  display: flex;
+  border: 2px solid lightblue;
+  width: 100vw;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  flex-flow: column;
+}
+.button {
+  width: 75%;
+  background-color: lightblue;
+}
+h1 { color:red;
+}

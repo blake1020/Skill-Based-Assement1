@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: blue;
+  }
+  
+
+  
+  
+.navlist {
+    width: 100%;
+    background-color: lightblue;
+}
+
+/* nav links */
+.navlist a {
+    /* float: left; */
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    /* width: 33.33%; */
+    text-align: center;
+}
+.navlist a li {
+
+    text-decoration: none;
+}
+
+a:hoover {
+    text-decoration: underline;
+}

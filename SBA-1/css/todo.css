@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+  }
+  
+    
+.navlist {
+  width: 100%;
+  background-color: lightblue;
+}
+
+/* nav links */
+.navlist a {
+  float: left;
+  color: blue;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  width: 33.33%;
+
+}
+
+
+a:hoover {
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+
+}
+.options {
+  align-self: flex-start;
+  border: 10px solid yellow;
+}
+.inside {
+  flex-direction: row;
+  flex-wrap:wrap;
+  border: 5px soild salmon;
+
+}
+table {
+  flex-wrap: wrap;
+  border: 10px solid blue;
+}
+td {
+  border: 5px solid green;
+ justify-content: space-between;
+  
+}
+
+
